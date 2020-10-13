@@ -19,7 +19,7 @@ function preload()
 	
 		engine = Engine.create();
 		world = engine.world;
-		fill("yellow");
+		fill("lightPurple");
 		paperObject=new Paper(200,450,70);
 		
 		ground=Bodies.rectangle(width/2,620,width,20,{isStatic:true});
